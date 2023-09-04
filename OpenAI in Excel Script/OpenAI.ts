@@ -1,7 +1,7 @@
 async function main(workbook: ExcelScript.Workbook) {
     
     // Set the OpenAI API key - You'll need to add this in the Excel file or replace this part with your key
-    const apiKey = workbook.getWorksheet("API").getRange("B1").getValue();
+    const apiKey = workbook.getWorksheet("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").getRange("B1").getValue();
     const endpoint: string = "https://api.openai.com/v1/completions";
 
     // get worksheet info
